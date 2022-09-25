@@ -1,0 +1,44 @@
+body {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.legend {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  padding: 14px;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.legend ul li {
+  font-size: 12px;
+  line-height: normal;
+}
+
+.legend ul li i {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  vertical-align: middle;
+}
+
+.legend ul li span {
+  vertical-align: middle;
+  margin-left: 6px;
+}
